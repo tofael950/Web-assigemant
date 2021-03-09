@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap");
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif; }
+
+#hero {
+  background-color: black;
+  width: auto;
+  height: 75vh; }
+  #hero .text-style {
+    text-align: center;
+    padding-top: 150px;
+    color: white; }
+    #hero .text-style h3 {
+      padding-top: 5px;
+      font-size: 32px; }
+
+/*******  quote  *****/
+#quote {
+  background-color: yellow;
+  padding-top: 35px; }
+  #quote .width-auto {
+    width: auto; }
+  #quote .text-lg {
+    font-size: 2rem; }
+  #quote .carousel-indicators li {
+    border: none;
+    background: #ccc; }
+  #quote .carousel-indicators li.active {
+    background: #28a745; }
+
+#cd {
+  /* Unordered list with custom numbers style */ }
+  #cd .list-bullets {
+    list-style: none; }
+  #cd .list-bullets li {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center; }
+  #cd .list-bullets li::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #5784d7;
+    border: 2px solid #8fb3f5;
+    display: block;
+    margin-right: 1rem; }
+  #cd ol.custom-numbers {
+    list-style: none; }
+  #cd ol.custom-numbers li {
+    counter-increment: my-awesome-counter; }
+  #cd ol.custom-numbers li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #2b90d9;
+    font-weight: bold; }
+
+/***************     link               ************/
+#link {
+  background-color: black;
+  height: 550px; }
+  #link p {
+    padding-top: 25px;
+    font-size: 25px;
+    color: white; }
+    #link p a {
+      text-decoration: none;
+      color: yellow; }
+    #link p a:hover {
+      color: red; }
+  #link .btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    background-color: white; }
+    #link .btn a {
+      text-decoration: none;
+      color: black; }
+    #link .btn a:hover {
+      text-decoration: none;
+      color: black; }
+  #link .btn:hover {
+    color: black;
+    background-color: yellow;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: green; }
